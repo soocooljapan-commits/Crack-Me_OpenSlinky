@@ -1,6 +1,7 @@
 # Open Slinky
 
-A readable C++ reconstruction of the **Slinky** client for **Minecraft 1.8.9** (Forge 11.15.1.2318).
+A readable C++ reconstruction of the **Slinky** client by **cat (Skid Solutions)** for
+**Minecraft 1.8.9** (Forge 11.15.1.2318).
 
 The client is injected into the game's JVM as a native DLL. It attaches through JNI/JVMTI, rewrites
 selected call sites in nine game classes while they are loaded, dispatches events to a module
@@ -108,17 +109,8 @@ unloads itself. The launch script is configured for ForgeOptiFine 1.8.9 via TLau
 
 ## Credits
 
-- Original client: Slinky
+- Original client: **cat (Skid Solutions)**
+- Original packed/devirtualized image and IDA database: cat (Skid Solutions)
 - Reconstruction: Claude (VMProtect devirtualization), DeepSeek (decryption), GLM and Claude
   (symbol recovery)
 - Bundled third-party code: NanoVG (Mikko Mononen), stb (Sean Barrett), GL headers
-
-## Legal & disclaimers
-
-- **Affiliation:** This is an independent development. It is **NOT AN OFFICIAL SLINKY PRODUCT**, is
-  not approved by or associated with the original authors, and is not affiliated with Mojang,
-  Zelix Pty Ltd or Lunar Client.
-- **Assets & code:** No un-obfuscated original source code is distributed directly within this
-  repository. The `src/data` tables are the client's own data required for linking; all third-party
-  assets and code belong to their respective owners.
-- **Purpose:** research and preservation. Use at your own risk.

@@ -114,17 +114,7 @@ third_party/        NanoVG and GL headers
 
 ## Credits
 
-- Original client: Slinky
+- Original client: **cat (Skid Solutions)**
+- Original packed/devirtualized image and IDA database: cat (Skid Solutions)
 - Reconstruction: Claude (VMProtect devirtualization), DeepSeek (decryption),
   GLM and Claude (symbol recovery)
-
-## Legal & disclaimers
-
-- **Affiliation:** This is an independent development. It is **NOT AN OFFICIAL
-  SLINKY PRODUCT**, is not approved by or associated with the original authors,
-  and is not affiliated with Mojang or Zelix Pty Ltd.
-- **Assets & code:** No un-obfuscated original source code is distributed
-  directly within this repository. The `src/data` tables are the client's own
-  data required for linking; all third-party assets and code belong to their
-  respective owners.
-- **Purpose:** research and preservation. Use at your own risk.

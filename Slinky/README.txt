@@ -2,6 +2,7 @@ Slinky
 ======
 
 Minecraft 1.8.9 / Forge 11.15.1.2318 client.
+Original client by cat (Skid Solutions).
 
 Files
 -----
