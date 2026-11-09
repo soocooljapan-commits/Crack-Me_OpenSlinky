@@ -1,0 +1,5 @@
+build/
+injector/build-*/
+__pycache__/
+*.pyc
+decrypted files/

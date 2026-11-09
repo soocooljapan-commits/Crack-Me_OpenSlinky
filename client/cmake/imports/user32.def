@@ -1,0 +1,8 @@
+LIBRARY user32.dll
+EXPORTS
+GetForegroundWindow
+GetWindowThreadProcessId
+IsWindowUnicode
+IsWindowVisible
+EnumWindows
+GetClassNameA
